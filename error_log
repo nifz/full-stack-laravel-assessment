@@ -1,0 +1,10 @@
+[07-Mar-2023 07:09:34 UTC] PHP Fatal error:  Cannot use Tests\TestCase as TestCase because the name is already in use in /home/hanifzc1/public_html/full-stack-laravel-assessment/tests/Unit/AnnualLeaveTest.php on line 11
+[07-Mar-2023 07:09:37 UTC] PHP Fatal error:  Cannot use Tests\TestCase as TestCase because the name is already in use in /home/hanifzc1/public_html/full-stack-laravel-assessment/tests/Unit/AnnualLeaveTest.php on line 11
+[07-Mar-2023 07:22:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Tests\DuskTestCase' not found in /home/hanifzc1/public_html/full-stack-laravel-assessment/tests/Browser/BrowserTest.php:9
+Stack trace:
+#0 /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/Util/FileLoader.php(66): include_once()
+#1 /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/Util/FileLoader.php(49): PHPUnit\Util\FileLoader::load('/home/hanifzc1/...')
+#2 /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/Framework/TestSuite.php(397): PHPUnit\Util\FileLoader::checkAndLoad('/home/hanifzc1/...')
+#3 /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/Framework/TestSuite.php(536): PHPUnit\Framework\TestSuite->addTestFile('/home/hanifzc1/...')
+#4 /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/TextUI/TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles(Array)
+#5 /home/hanifzc1/public_html/full-stack-laravel-a in /home/hanifzc1/public_html/full-stack-laravel-assessment/vendor/phpunit/phpunit/src/TextUI/Command.php on line 99
